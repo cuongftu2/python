@@ -1,0 +1,5 @@
+name = raw_input("What is your name: ")
+age = int(raw_input("How old are you: "))
+year = str((2016 - age) + 100)
+print ("Dear " + name + " ! You will be 100 year old in year " + year)
+print ("Dear %s ! You will be 100 years old in year %d")%(name, age)
